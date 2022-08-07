@@ -32,3 +32,12 @@
 ```
 
 <br>
+
+### Topics
+1. Essential of CUDA syntax
+2. Managing Accelerated Application Memory
+
+## Authors and acknowledgment
+Thanks to:
+- NVIDIA
+- CINECA summer school
