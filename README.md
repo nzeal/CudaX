@@ -13,7 +13,24 @@
 ### Objective
 
 ```
-
+.
+├── README.md
+├── Section01::EssentailSyntax
+│   └── CudaIntro
+│       ├── 01Hello
+│       │   ├── Makefile
+│       │   ├── binary.cu
+│       │   └── hello_kernel.cu
+│       └── 01HelloWorld
+│           └── hello_kernel.cu
+└── others
+    ├── VecADD
+    │   ├── others
+    │   ├── vecAdd.cu
+    │   └── vecAdd.out
+    └── matrix_multiplication
+        ├── mm.out
+        └── mm_matrix.cu
 ```
 
 <br>
