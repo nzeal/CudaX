@@ -17,11 +17,9 @@
 ├── README.md
 ├── Section01::EssentailSyntax
 │   └── CudaIntro
-│       ├── 01Hello
-│       │   ├── Makefile
-│       │   ├── binary.cu
-│       │   └── hello_kernel.cu
-│       └── 01HelloWorld
+│       └── 01Hello
+│           ├── Makefile
+│           ├── binary.cu
 │           └── hello_kernel.cu
 └── others
     ├── VecADD
