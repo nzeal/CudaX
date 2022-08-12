@@ -7,9 +7,9 @@ dummy:
 	@echo -e "make cuda\t\tcompile all CUDA sources"
 	@echo -e "make clean\t\trm -f *.x *.mod"
 		
-cuda: binary.cu
+cuda: binary
 
-binary.cu: *.cu
+binary: *.cu
 	$(NVCC) $(NVCCFLAG) $< -o $@
 
 clean:
