@@ -14,16 +14,6 @@
 
 ```
 .
-├── DataMovement
-│   ├── MemoryManagement
-│   │   ├── 01Sumtwonumbers
-│   │   ├── 02VectorSum
-│   │   └── 03TwoDim
-│   └── UnifiedMemory
-│       ├── ArrayCudaManaged
-│       ├── GridStrideSolution
-│       ├── MatrixMultiplicationCudaManaged
-│       └── vectorSumCudamanaged
 ├── KernalLaunch
 │   ├── 01Hello
 │   │   ├── Makefile
@@ -41,6 +31,16 @@
 │       ├── Makefile
 │       ├── binary
 │       └── loop.cu
+├── DataMovement
+│   ├── MemoryManagement
+│   │   ├── 01Sumtwonumbers
+│   │   ├── 02VectorSum
+│   │   └── 03TwoDim
+│   └── UnifiedMemory
+│       ├── ArrayCudaManaged
+│       ├── GridStrideSolution
+│       ├── MatrixMultiplicationCudaManaged
+│       └── vectorSumCudamanaged
 └── README.md
 ```
 
