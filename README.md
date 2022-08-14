@@ -14,21 +14,34 @@
 
 ```
 .
-├── README.md
-├── Section01::EssentailSyntax
-│   └── CudaIntro
-│       └── 01Hello
-│           ├── Makefile
-│           ├── binary.cu
-│           └── hello_kernel.cu
-└── others
-    ├── VecADD
-    │   ├── others
-    │   ├── vecAdd.cu
-    │   └── vecAdd.out
-    └── matrix_multiplication
-        ├── mm.out
-        └── mm_matrix.cu
+├── DataMovement
+│   ├── MemoryManagement
+│   │   ├── 01Sumtwonumbers
+│   │   ├── 02VectorSum
+│   │   └── 03TwoDim
+│   └── UnifiedMemory
+│       ├── ArrayCudaManaged
+│       ├── GridStrideSolution
+│       ├── MatrixMultiplicationCudaManaged
+│       └── vectorSumCudamanaged
+├── KernalLaunch
+│   ├── 01Hello
+│   │   ├── Makefile
+│   │   ├── binary.cu
+│   │   └── hello_kernel.cu
+│   ├── 02Hello
+│   │   ├── Makefile
+│   │   ├── binary.cu
+│   │   └── hello.cu
+│   ├── 03AccLoop
+│   │   ├── Makefile
+│   │   ├── binary.cu
+│   │   └── loop.cu
+│   └── 04LoopMultiblock
+│       ├── Makefile
+│       ├── binary
+│       └── loop.cu
+└── README.md
 ```
 
 <br>
