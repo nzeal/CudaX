@@ -36,6 +36,8 @@
 │   │   ├── 01Sumtwonumbers
 │   │   ├── 02VectorSum
 │   │   └── 03TwoDim
+│   ├── PinedMemory
+│   │   └── 01VectorSumPinnedMmemory
 │   └── UnifiedMemory
 │       ├── ArrayCudaManaged
 │       ├── GridStrideSolution
