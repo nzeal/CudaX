@@ -1,0 +1,23 @@
+==71889== NVPROF is profiling process 71889, command: ../01VectorSum/./binary
+Grid size is 1024
+ERROR!
+
+ 0.000000, 0.000000,  0.000000 
+
+ Completed Successfully!
+==71889== Profiling application: ../01VectorSum/./binary
+==71889== Profiling result:
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+ GPU activities:   64.05%  84.430ms         2  42.215ms  42.196ms  42.234ms  [CUDA memcpy HtoD]
+                   35.95%  47.385ms         1  47.385ms  47.385ms  47.385ms  [CUDA memcpy DtoH]
+      API calls:   57.74%  194.03ms         3  64.676ms  10.123ms  173.77ms  cudaMalloc
+                   39.33%  132.15ms         3  44.050ms  42.289ms  47.531ms  cudaMemcpy
+                    1.30%  4.3681ms         3  1.4560ms  1.3963ms  1.5641ms  cudaFree
+                    0.91%  3.0612ms         4  765.30us  758.68us  778.58us  cuDeviceTotalMem
+                    0.65%  2.1990ms       404  5.4430us     211ns  244.94us  cuDeviceGetAttribute
+                    0.06%  201.60us         4  50.401us  47.991us  54.423us  cuDeviceGetName
+                    0.00%  8.9460us         4  2.2360us  1.1020us  3.9140us  cuDeviceGetPCIBusId
+                    0.00%  2.9400us         8     367ns     258ns     592ns  cuDeviceGet
+                    0.00%  1.3870us         4     346ns     302ns     390ns  cuDeviceGetUuid
+                    0.00%  1.2630us         3     421ns     344ns     531ns  cuDeviceGetCount
+                    0.00%  1.0330us         1  1.0330us  1.0330us  1.0330us  cudaLaunchKernel
