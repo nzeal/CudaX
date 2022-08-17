@@ -14,35 +14,25 @@
 
 ```
 .
-├── KernalLaunch
+├── 0KernalLaunch
+│   ├── 00Query
 │   ├── 01Hello
-│   │   ├── Makefile
-│   │   ├── binary.cu
-│   │   └── hello_kernel.cu
 │   ├── 02Hello
-│   │   ├── Makefile
-│   │   ├── binary.cu
-│   │   └── hello.cu
 │   ├── 03AccLoop
-│   │   ├── Makefile
-│   │   ├── binary.cu
-│   │   └── loop.cu
 │   └── 04LoopMultiblock
-│       ├── Makefile
-│       ├── binary
-│       └── loop.cu
-├── DataMovement
+├── 01MemoryManagement
+│   ├── 01Sumtwonumbers
+│   ├── 02VectorSum
+│   └── 03TwoDim
+├── 02DataMovement
 │   ├── MemoryManagement
-│   │   ├── 01Sumtwonumbers
-│   │   ├── 02VectorSum
-│   │   └── 03TwoDim
 │   ├── PinedMemory
-│   │   └── 01VectorSumPinnedMmemory
-│   └── UnifiedMemory
-│       ├── ArrayCudaManaged
-│       ├── GridStrideSolution
-│       ├── MatrixMultiplicationCudaManaged
-│       └── vectorSumCudamanaged
+│   ├── UnifiedMemory
+│   └── vectorAdd_um_baseline
+├── 03CudaStream
+│   ├── 04VectorSumCudaevent
+│   ├── NumStreamsPrint
+│   └── StreamVectorAdd
 └── README.md
 ```
 
