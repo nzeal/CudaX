@@ -1,0 +1,20 @@
+ Completed Successfully!
+==70991== Profiling application: ./binary
+==70991== Profiling result:
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+ GPU activities:   48.25%  3.9040us         2  1.9520us  1.9520us  1.9520us  [CUDA memcpy HtoD]
+                   32.38%  2.6200us         1  2.6200us  2.6200us  2.6200us  vectorAddGPU(double*, double*, double*, int)
+                   19.38%  1.5680us         1  1.5680us  1.5680us  1.5680us  [CUDA memcpy DtoH]
+      API calls:   96.05%  156.43ms         3  52.144ms  6.0270us  156.42ms  cudaHostAlloc
+                    1.90%  3.0924ms         4  773.10us  765.07us  792.57us  cuDeviceTotalMem
+                    1.34%  2.1861ms       404  5.4110us     212ns  249.34us  cuDeviceGetAttribute
+                    0.21%  335.63us         3  111.88us  4.7500us  325.19us  cudaMalloc
+                    0.16%  263.86us         3  87.952us  10.994us  232.63us  cudaFreeHost
+                    0.13%  212.27us         3  70.755us  8.3740us  192.14us  cudaFree
+                    0.13%  206.82us         4  51.704us  48.459us  59.810us  cuDeviceGetName
+                    0.05%  82.331us         3  27.443us  22.771us  36.475us  cudaMemcpy
+                    0.03%  45.986us         1  45.986us  45.986us  45.986us  cudaLaunchKernel
+                    0.01%  9.8300us         4  2.4570us  1.0800us  3.8670us  cuDeviceGetPCIBusId
+                    0.00%  2.8370us         8     354ns     246ns     586ns  cuDeviceGet
+                    0.00%  1.3250us         3     441ns     330ns     607ns  cuDeviceGetCount
+                    0.00%  1.3190us         4     329ns     304ns     350ns  cuDeviceGetUuid
