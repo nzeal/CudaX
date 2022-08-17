@@ -1,0 +1,18 @@
+Number of elements: 2097152.000000
+
+GPU computation ... GPU execution with 8192 blocks each one of 256 threads
+ok
+Elapsed time on GPU: 4.54 ms
+
+CPU computation ... ok
+Elapsed time on CPU: 3.81 ms
+
+Speed UP CPU/GPU 0.8x
+
+Check results on GPU:
+
+ 3.000000, 3.000000,  3.000000 
+
+Check results on CPU:
+
+ 3.000000, 3.000000,  3.000000 
