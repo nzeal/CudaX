@@ -1,0 +1,5 @@
+Device ID: 0
+Number of SMs: 80
+Compute Capability Major: 7
+Compute Capability Minor: 0
+Warp Size: 32
